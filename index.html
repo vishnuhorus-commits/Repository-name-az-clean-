@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AZ Clean - A-Z organization, indexing, sorting, archive management, and automation platform">
+    <meta name="keywords" content="organization, indexing, sorting, archive, automation">
+    <meta name="author" content="vishnuhorus-commits">
+    <title>AZ Clean - Organization & Archive Management Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-weight='bold' fill='%234A90E2'>A-Z</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">AZ Clean</span>
+                <span class="tagline">Organization Platform</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#modules" class="nav-link">Modules</a></li>
+                <li><a href="#demo" class="nav-link">Demo</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>AZ Clean</h1>
+                <p class="hero-subtitle">A-Z Organization, Indexing, Sorting & Archive Management</p>
+                <p class="hero-description">
+                    A comprehensive platform for organizing, indexing, sorting, and managing archives with intelligent automation capabilities.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="navigateToModule('organize')">Get Started</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('features')">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="icon-grid">
+                    <div class="icon-box">📑</div>
+                    <div class="icon-box">🔍</div>
+                    <div class="icon-box">📊</div>
+                    <div class="icon-box">📦</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📑</div>
+                    <h3>Alphabetical Organization</h3>
+                    <p>Organize content A-Z with intelligent categorization and hierarchical structure.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Advanced Indexing</h3>
+                    <p>Fast and efficient indexing system for quick searches and access to large datasets.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Smart Sorting</h3>
+                    <p>Multiple sorting options with custom rules and intelligent comparators.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Archive Management</h3>
+                    <p>Compress, organize, and manage archives with metadata preservation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Automation</h3>
+                    <p>Create automated workflows and processes for repetitive tasks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>User-Friendly</h3>
+                    <p>Intuitive web-based interface designed for ease of use and efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modules" class="modules">
+        <div class="container">
+            <h2>Core Modules</h2>
+            <div class="modules-grid">
+                <div class="module-card" onclick="navigateToModule('organize')">
+                    <div class="module-icon">📑</div>
+                    <h3>Organize</h3>
+                    <p>Import and organize your content with intelligent categorization</p>
+                    <span class="module-link">Open Module →</span>
+                </div>
+                <div class="module-card" onclick="navigateToModule('index')">
+                    <div class="module-icon">🔍</div>
+                    <h3>Index</h3>
+                    <p>Create searchable indexes for quick access to your data</p>
+                    <span class="module-link">Open Module →</span>
+                </div>
+                <div class="module-card" onclick="navigateToModule('sort')">
+                    <div class="module-icon">📊</div>
+                    <h3>Sort</h3>
+                    <p>Apply custom sorting rules with multiple criteria</p>
+                    <span class="module-link">Open Module →</span>
+                </div>
+                <div class="module-card" onclick="navigateToModule('archive')">
+                    <div class="module-icon">📦</div>
+                    <h3>Archive</h3>
+                    <p>Manage and organize archives efficiently</p>
+                    <span class="module-link">Open Module →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>Quick Demo</h2>
+            <div class="demo-content">
+                <div class="demo-box">
+                    <h3>Sample Data Organization</h3>
+                    <div class="demo-data">
+                        <div class="data-item">
+                            <span class="data-label">A</span>
+                            <span class="data-count">325 items</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">B</span>
+                            <span class="data-count">412 items</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">C</span>
+                            <span class="data-count">298 items</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">...</span>
+                            <span class="data-count">Z</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get Started Today</h2>
+            <p>Ready to organize your data with AZ Clean?</p>
+            <div class="contact-buttons">
+                <button class="btn btn-primary" onclick="navigateToModule('organize')">Launch Platform</button>
+                <a href="https://github.com/vishnuhorus-commits/Repository-name-az-clean-" class="btn btn-secondary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AZ Clean</h4>
+                    <p>Organization, indexing, sorting & archive management platform</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="README.md">Documentation</a></li>
+                        <li><a href="https://github.com/vishnuhorus-commits/Repository-name-az-clean-" target="_blank">GitHub</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Status</h4>
+                    <p>Active Development 🚀</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AZ Clean. All rights reserved. | <a href="#home">Back to Top</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
